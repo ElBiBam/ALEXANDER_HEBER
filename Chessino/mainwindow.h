@@ -1,13 +1,14 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include <QMainWindow>
+#include "mylibrary/mylibrary_global.h"
+#include "mylibrary/share_typedef.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
-class MainWindow : public QMainWindow
+class MYLIBRARYSHARED_EXPORT MainWindow : public QMainWindow
 {
     Q_OBJECT
 
